@@ -4,4 +4,4 @@ project(OJ)
 set(CMAKE_CXX_STANDARD 14)
 
 add_executable(OJ
-        E2-3.cpp)
+        E2-EX.cpp)

@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/yanruiran/study/algorithm/OJ/E2-3.cpp" "/home/yanruiran/study/algorithm/OJ/cmake-build-debug/CMakeFiles/OJ.dir/E2-3.cpp.o"
+  "/home/yanruiran/study/algorithm/OJ/E2-EX.cpp" "/home/yanruiran/study/algorithm/OJ/cmake-build-debug/CMakeFiles/OJ.dir/E2-EX.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

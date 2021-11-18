@@ -82,7 +82,7 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/home/yanruiran/study/algorithm/OJ/E2-3.cpp">
+		<Unit filename="/home/yanruiran/study/algorithm/OJ/E2-EX.cpp">
 			<Option target="OJ"/>
 		</Unit>
 		<Unit filename="/home/yanruiran/study/algorithm/OJ/CMakeLists.txt">

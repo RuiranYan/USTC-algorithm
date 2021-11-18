@@ -77,27 +77,27 @@ include CMakeFiles/OJ.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/OJ.dir/flags.make
 
-CMakeFiles/OJ.dir/E2-3.cpp.o: CMakeFiles/OJ.dir/flags.make
-CMakeFiles/OJ.dir/E2-3.cpp.o: ../E2-3.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/yanruiran/study/algorithm/OJ/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/OJ.dir/E2-3.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/OJ.dir/E2-3.cpp.o -c /home/yanruiran/study/algorithm/OJ/E2-3.cpp
+CMakeFiles/OJ.dir/E2-EX.cpp.o: CMakeFiles/OJ.dir/flags.make
+CMakeFiles/OJ.dir/E2-EX.cpp.o: ../E2-EX.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/yanruiran/study/algorithm/OJ/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/OJ.dir/E2-EX.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/OJ.dir/E2-EX.cpp.o -c /home/yanruiran/study/algorithm/OJ/E2-EX.cpp
 
-CMakeFiles/OJ.dir/E2-3.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/OJ.dir/E2-3.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/yanruiran/study/algorithm/OJ/E2-3.cpp > CMakeFiles/OJ.dir/E2-3.cpp.i
+CMakeFiles/OJ.dir/E2-EX.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/OJ.dir/E2-EX.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/yanruiran/study/algorithm/OJ/E2-EX.cpp > CMakeFiles/OJ.dir/E2-EX.cpp.i
 
-CMakeFiles/OJ.dir/E2-3.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/OJ.dir/E2-3.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/yanruiran/study/algorithm/OJ/E2-3.cpp -o CMakeFiles/OJ.dir/E2-3.cpp.s
+CMakeFiles/OJ.dir/E2-EX.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/OJ.dir/E2-EX.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/yanruiran/study/algorithm/OJ/E2-EX.cpp -o CMakeFiles/OJ.dir/E2-EX.cpp.s
 
 # Object files for target OJ
 OJ_OBJECTS = \
-"CMakeFiles/OJ.dir/E2-3.cpp.o"
+"CMakeFiles/OJ.dir/E2-EX.cpp.o"
 
 # External object files for target OJ
 OJ_EXTERNAL_OBJECTS =
 
-OJ: CMakeFiles/OJ.dir/E2-3.cpp.o
+OJ: CMakeFiles/OJ.dir/E2-EX.cpp.o
 OJ: CMakeFiles/OJ.dir/build.make
 OJ: CMakeFiles/OJ.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/yanruiran/study/algorithm/OJ/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable OJ"
