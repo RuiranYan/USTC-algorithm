@@ -6,7 +6,15 @@
 
 #IncludeRegexTransform: 
 
-/home/yanruiran/study/algorithm/OJ/E2-EX.cpp
-stdio.h
+C:/Users/62445/study/algorithm/OJ/E2-EX.cpp
+iostream
+-
+map
+-
+set
+-
+algorithm
+-
+string
 -
 
