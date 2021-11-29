@@ -1,3 +1,0 @@
-C:/Users/62445/study/algorithm/OJ/cmake-build-debug/CMakeFiles/OJ/.dir
-C:/Users/62445/study/algorithm/OJ/cmake-build-debug/CMakeFiles/edit_cache.dir
-C:/Users/62445/study/algorithm/OJ/cmake-build-debug/CMakeFiles/rebuild_cache.dir
