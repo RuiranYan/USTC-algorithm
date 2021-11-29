@@ -116,24 +116,24 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named OJ
+# Target rules for targets named OJ/
 
 # Build rule for target.
-OJ: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 OJ
-.PHONY : OJ
+OJ/: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 OJ/
+.PHONY : OJ/
 
 # fast build rule for target.
-OJ/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\OJ.dir\build.make CMakeFiles/OJ.dir/build
-.PHONY : OJ/fast
+OJ//fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\OJ\.dir\build.make CMakeFiles/OJ/.dir/build
+.PHONY : OJ//fast
 
 E2-EX.obj: E2-EX.cpp.obj
 .PHONY : E2-EX.obj
 
 # target to build an object file
 E2-EX.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\OJ.dir\build.make CMakeFiles/OJ.dir/E2-EX.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\OJ\.dir\build.make CMakeFiles/OJ/.dir/E2-EX.cpp.obj
 .PHONY : E2-EX.cpp.obj
 
 E2-EX.i: E2-EX.cpp.i
@@ -141,7 +141,7 @@ E2-EX.i: E2-EX.cpp.i
 
 # target to preprocess a source file
 E2-EX.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\OJ.dir\build.make CMakeFiles/OJ.dir/E2-EX.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\OJ\.dir\build.make CMakeFiles/OJ/.dir/E2-EX.cpp.i
 .PHONY : E2-EX.cpp.i
 
 E2-EX.s: E2-EX.cpp.s
@@ -149,7 +149,7 @@ E2-EX.s: E2-EX.cpp.s
 
 # target to generate assembly for a file
 E2-EX.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\OJ.dir\build.make CMakeFiles/OJ.dir/E2-EX.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\OJ\.dir\build.make CMakeFiles/OJ/.dir/E2-EX.cpp.s
 .PHONY : E2-EX.cpp.s
 
 # Help Target
@@ -160,7 +160,7 @@ help:
 	@echo ... depend
 	@echo ... edit_cache
 	@echo ... rebuild_cache
-	@echo ... OJ
+	@echo ... OJ/
 	@echo ... E2-EX.obj
 	@echo ... E2-EX.i
 	@echo ... E2-EX.s

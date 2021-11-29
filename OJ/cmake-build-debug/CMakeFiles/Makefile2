@@ -62,7 +62,7 @@ CMAKE_BINARY_DIR = C:\Users\62445\study\algorithm\OJ\cmake-build-debug
 # Directory level rules for the build root directory
 
 # The main recursive "all" target.
-all: CMakeFiles/OJ.dir/all
+all: CMakeFiles/OJ/.dir/all
 .PHONY : all
 
 # The main recursive "preinstall" target.
@@ -70,34 +70,34 @@ preinstall:
 .PHONY : preinstall
 
 # The main recursive "clean" target.
-clean: CMakeFiles/OJ.dir/clean
+clean: CMakeFiles/OJ/.dir/clean
 .PHONY : clean
 
 #=============================================================================
-# Target rules for target CMakeFiles/OJ.dir
+# Target rules for target CMakeFiles/OJ/.dir
 
 # All Build rule for target.
-CMakeFiles/OJ.dir/all:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\OJ.dir\build.make CMakeFiles/OJ.dir/depend
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\OJ.dir\build.make CMakeFiles/OJ.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\62445\study\algorithm\OJ\cmake-build-debug\CMakeFiles --progress-num=1,2 "Built target OJ"
-.PHONY : CMakeFiles/OJ.dir/all
+CMakeFiles/OJ/.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\OJ\.dir\build.make CMakeFiles/OJ/.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\OJ\.dir\build.make CMakeFiles/OJ/.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\62445\study\algorithm\OJ\cmake-build-debug\CMakeFiles --progress-num=1,2 "Built target OJ/"
+.PHONY : CMakeFiles/OJ/.dir/all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/OJ.dir/rule: cmake_check_build_system
+CMakeFiles/OJ/.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\62445\study\algorithm\OJ\cmake-build-debug\CMakeFiles 2
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/OJ.dir/all
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/OJ/.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\62445\study\algorithm\OJ\cmake-build-debug\CMakeFiles 0
-.PHONY : CMakeFiles/OJ.dir/rule
+.PHONY : CMakeFiles/OJ/.dir/rule
 
 # Convenience name for target.
-OJ: CMakeFiles/OJ.dir/rule
-.PHONY : OJ
+OJ/: CMakeFiles/OJ/.dir/rule
+.PHONY : OJ/
 
 # clean rule for target.
-CMakeFiles/OJ.dir/clean:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\OJ.dir\build.make CMakeFiles/OJ.dir/clean
-.PHONY : CMakeFiles/OJ.dir/clean
+CMakeFiles/OJ/.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\OJ\.dir\build.make CMakeFiles/OJ/.dir/clean
+.PHONY : CMakeFiles/OJ/.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.
