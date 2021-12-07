@@ -1,3 +1,7 @@
+/*
+ * 数据库2.0:
+ * INSERT改为会多输入一个主键，FIND改为输出主键吗，其他条件相同。
+ */
 #include <iostream>
 #include <map>
 #include <set>

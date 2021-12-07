@@ -1,3 +1,7 @@
+/*
+ * 在T组数组中，对于每个数组，仅求对该数组从⼩到⼤排序后index为K-1的数（index从0开始）
+ * 如K=3对数组 3 1 5 9，即求1 3 5 9中index为2的数，为5
+ */
 #include<stdio.h>
 #include<stdlib.h>
 int partition(int *a, int p, int r){

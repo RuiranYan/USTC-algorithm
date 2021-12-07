@@ -1,6 +1,7 @@
-//
-// Created by yanruiran on 2021/10/12.
-//
+/*
+ * 数组排序:
+ * 给定⼀个⻓为 的int类型数组 ，将该数组排序。
+ */
 #include<stdio.h>
 #include<math.h>
 
