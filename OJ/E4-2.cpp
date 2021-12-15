@@ -25,24 +25,33 @@ int main(){
     }
     sort(a,a+n,cmp);
     dp[0] = a[0].r+a[0].p;
-    time = a[0].p;
     for (int i = 1; i < n; ++i) {
-        if(a[i].r<=dp[i-1]){
-            if(a[i].r+a[i].p<=dp[i-1]){
-                dp[i] = dp[i - 1] + a[i].p;
-                time+=a[i].p+2*a[i].p;
-            } else {
-                dp[i] = dp[i - 1] + a[i].p;
-                time+=a[i].p+dp[i-1]-a[i].r;
-            }
+        int time1 = 0;
+        int time2 = 0;
+        int maxtime = 0;
+        for (int j = 0; j < i; ++j) {
+            if(dp[j]>a[i].r) time1+=a[i].p;
+            if(dp[j]>maxtime) maxtime = dp[j];
+        }
+        time1 += a[i].p;
+        if(maxtime>a[i].r){
+            time2 = maxtime - a[i].r + a[i].p;
         } else{
-            dp[i] = a[i].r+a[i].p;
-            time+=a[i].p;
+            time2 = a[i].p;
+        }
+        if(time1 <= time2){
+            for (int j = 0; j < i; ++j) {
+                if(dp[j]>a[i].r) dp[j]+=a[i].p;
+            }
+            dp[i] = a[i].r + a[i].p;
+        } else{
+            dp[i] = maxtime + a[i].p;
         }
     }
-//    for (int i = 0; i < n; ++i) {
-//        time+=dp[i]-a[i].r;
-//    }
+    for (int i = 0; i < n; ++i) {
+        time+=dp[i]-a[i].r;
+//        cout<<dp[i]<<endl;
+    }
     cout<<time;
     return 0;
 }
