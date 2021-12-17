@@ -1,3 +1,9 @@
+/*
+ * 数据库1.0:
+ * 现有数据库系统支持两种函数INSERT和FIND
+ * INSERT满足有序,FIND查找若找到就输出该数否则输出不大于他的最大的数。
+ */
+
 #include <iostream>
 #include <map>
 #include <set>

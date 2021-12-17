@@ -1,3 +1,19 @@
+/*
+ * 危险品问题
+ * i,j的危险品之间有一个危险系数\alpha_{ij}
+ * 现有两个仓库，两个危险品i,j在同一仓库时会产生\alpha_{ij}的危险值。
+ * 问如何分配使得最大的危险最小，输出危险值。
+ * 注意：
+ * 危险值只取决于该仓库中最大的\alpha_{ij}
+ * 即最终输出为min(max(max(A,alpha),max(B,alpha)))
+ * \alpha_{ij}中i可能等于j
+ * INPUT:
+ * n,m //n为危险品个数,m为危险系数个数
+ * i j \alpha_{ij} //之后输入m条危险系数记录，格式如前
+ * OUTPUT:
+ * 最小危险值。
+ */
+
 #include <iostream>
 #include <map>
 #include <set>

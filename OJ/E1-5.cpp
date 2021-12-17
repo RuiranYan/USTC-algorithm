@@ -1,3 +1,25 @@
+/*
+ * 军训排队:
+ * 现有N个学⽣排成⼀个固定队伍进⾏军训，教官⼩明有⼀份所有N个⼈的名单（不同的⼈可能重名）。⼩明想
+ * 要在整个队伍中找到⼀个连续的⼦队伍，并且满⾜该⼦队的所有⼈恰好有K个不重复的名字。请帮⼩明计算⼀
+ * 下⼀共有多少种可能的⼦队伍。
+ * INPUT:
+ * 5 2
+ * yyyyy iiiii yyyyy iiiii sssss
+ * OUTPUT:
+ * 7
+    /
+    ⼀共7种可能的⼦队伍为如下：
+    yyyyy iiiii
+    iiiii yyyyy
+    yyyyy iiiii
+    iiiii sssss
+    yyyyy iiiii yyyyy
+    iiiii yyyyy iiiii
+    yyyyy iiiii yyyyy iiiii
+    /
+ */
+
 #include <iostream>
 #include <string.h>
 #include <set>
