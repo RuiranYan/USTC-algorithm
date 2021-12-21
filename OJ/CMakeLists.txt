@@ -1,11 +1,10 @@
-# cmake_minimum_required(VERSION <specify CMake version here>)
-project(OJ)
+              cmake_minimum_required(VERSION 3.15) # cmake最低版本
 
-set(CMAKE_CXX_STANDARD 14)
+              project(OJ)
 
-add_executable(OJ
-<<<<<<< HEAD
-        EX3-1.cpp)
-=======
-        E5-2.cpp)
->>>>>>> 821e26a0145ec6cce9058e8f390a3c6c81cf241f
+              set(CMAKE_CXX_STANDARD 14)      # c++版本
+
+              # include_directories(文件名)      # 如果有文件夹的话
+
+              add_executable(OJ
+                      E5-2.cpp) # 例如: Part1/Assignment.cpp, 如果没有上级文件夹，直接写文件名就行了
